@@ -21,7 +21,7 @@ h2 {
 }
 
 .box {
-  /* background-color: goldenrod; */
+  background-color: rgb(253, 241, 210);
   width: 28%;
   margin: 10px;
   padding: 20px;
@@ -29,15 +29,16 @@ h2 {
   align-content: center;
 }
 
-h5 {
-  color: #fff;
+h4 {
+  color: #000;
   text-align: center;
   font-family: "Alkatra";
 }
 
 p {
-  color: honeydew;
-  font-size: 0.9rem;
+  color: #131313;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 img {
@@ -48,4 +49,31 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #f5c7a9;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
 }
